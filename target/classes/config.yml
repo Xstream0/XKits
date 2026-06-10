@@ -1,0 +1,30 @@
+mysql:
+  host: localhost
+  port: 3306
+  database: xkits
+  user: xkits
+  password: ""
+
+messages:
+  prefix: '&8[&bxkit&8] &r'
+  commandOnlyInGame: '&c❌ Questo comando può essere usato solo da un giocatore in gioco.'
+  usageRedeem: '&7Uso: /kit <kit>'
+  usageCreate: '&7Uso: /kitcreate <name> <cooldown> [permission] (es. 10d, 5h, 30m)'
+  usageDelete: '&7Uso: /kitdelete <name>'
+  usageRename: '&7Uso: /kitrename <oldName> <newName>'
+  usageGive: '&7Uso: /kitgive <player> <kit>'
+  invalidNumber: '&c❌ Cooldown non valido. Usa 10d, 5h, 30m o 120.'
+  inventoryEmpty: '&c❌ Il tuo inventario è vuoto, impossibile creare un kit.'
+  kitSaved: '&a✅ Kit salvato: &e%kit%'
+  kitDeleted: '&c🗑️ Kit eliminato: &e%kit%'
+  kitRenamed: '&e✏️ Kit rinominato: &6%old% &7-> &6%new%'
+  errorMessage: '&c❌ Errore: &e%error%'
+  kitRedeemed: '&a✅ Hai riscattato il kit &e%kit%&a!'
+  kitRedeemFail: '&c⛔ Non puoi riscattare il kit ora (permesso/cooldown).'
+  kitRedeemFailCooldown: '&c⏳ Il kit &e%kit%&c sarà nuovamente disponibile tra &e%countdown%&c.'
+  kitNotFound: '&c❌ Kit non trovato: &e%kit%'
+  kitNoPermission: '&c❌ Non hai il permesso per riscattare il kit &e%kit%&c.'
+  playerOffline: '&c❌ Il giocatore richiesto non è online.'
+  kitGiven: '&a✅ Kit &e%kit% &aconsegnato a &e%player%&a!'
+  receivedKit: '&a✅ Hai ricevuto il kit &e%kit%&a!'
+  giveFail: '&c⛔ Impossibile riscattare il kit: permessi mancanti o cooldown attivo.'

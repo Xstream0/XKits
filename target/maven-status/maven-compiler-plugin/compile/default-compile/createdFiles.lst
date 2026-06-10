@@ -1,0 +1,10 @@
+com\xkits\command\RedeemKitCommand.class
+com\xkits\kit\Kit.class
+com\xkits\util\MessageUtil.class
+com\xkits\command\DeleteKitCommand.class
+com\xkits\command\RenameKitCommand.class
+com\xkits\command\GiveKitCommand.class
+com\xkits\XKits.class
+com\xkits\command\CreateKitCommand.class
+com\xkits\db\MySQLManager.class
+com\xkits\kit\KitManager.class

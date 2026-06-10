@@ -1,0 +1,36 @@
+name: XKits
+main: com.xkits.XKits
+version: 1.0.0
+api-version: 1.20
+author: Xstream
+description: Gestisci kit personalizzati con cooldown e permessi
+
+commands:
+  kit:
+    description: Riscatta un kit tramite comando
+    usage: /kit <kit>
+    permission: xkits.use
+  kitcreate:
+    description: Crea un kit basato sull'inventario
+    usage: /kitcreate <name> <cooldown_seconds> [permission]
+    permission: xkits.admin
+  kitdelete:
+    description: Elimina un kit
+    usage: /kitdelete <name>
+    permission: xkits.admin
+  kitrename:
+    description: Rinomina un kit
+    usage: /kitrename <oldName> <newName>
+    permission: xkits.admin
+  kitgive:
+    description: Dai un kit a un giocatore
+    usage: /kitgive <player> <kit>
+    permission: xkits.admin
+
+permissions:
+  xkits.admin:
+    description: Consente di gestire i kit
+    default: op
+  xkits.use:
+    description: Consente di riscattare i kit
+    default: true
